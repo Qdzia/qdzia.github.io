@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1{
+  color:azure;
+  font-weight: bold;
+}
+h4{
+  color:gray;
+  font-weight: bold;
+}
+body{
+  background: black;
+}

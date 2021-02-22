@@ -1,0 +1,52 @@
+/* Home */
+.background-img {
+  background-image: url("../images/background.jpg");
+  height: 93vh;
+  position: relative;
+}
+
+.main-header {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-55%);
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+.hello {
+  font-size: 500%;
+}
+
+.hello-sub {
+  font-size: 120%;
+}
+
+/* Navbar */
+.main-nav {
+  height: 7vh;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3vh;
+}
+hr {
+  border-color: #292b2c;
+}
+
+.ref-icon {
+  width: 4vw;
+  height: 4vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.down-icon {
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 5vh;
+  left: 46vw;
+}

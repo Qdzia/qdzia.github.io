@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../style/elements.css";
 import Home from "./home";
 import About from "./about";
 import Experience from "./experience";
@@ -8,12 +9,12 @@ import Contact from "./contact";
 
 const page = () => {
   return (
-    <body>
+    <div>
       <nav
-        id="navbar-example2"
-        class="navbar navbar-light bg-light fixed-top d-flex justify-content-center"
+        id="navbar-example"
+        class="nav main-nav d-flex justify-content-center bg-dark"
       >
-        <ul class="nav nav-pills ">
+        <ul class="nav nav-pills">
           <li class="nav-item">
             <a class="nav-link" href="#home">
               Home
@@ -54,7 +55,7 @@ const page = () => {
         <div id="contact" />
         <Contact />
       </div>
-    </body>
+    </div>
   );
 };
 

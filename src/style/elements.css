@@ -1,7 +1,7 @@
 /* Home */
 .background-img {
   background-image: url("../images/background.jpg");
-  height: 93vh;
+  height: 100vh;
   position: relative;
 }
 
@@ -50,3 +50,37 @@ hr {
   margin-bottom: 5vh;
   left: 46vw;
 }
+
+/* About */
+.portrait {
+    width: 40vw;
+    height: 60vh;
+    margin-right: 7vw;
+}
+.element-container{
+    padding-top: 7vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 3vh;
+}
+.btn-cv{
+    padding-left: 8%;
+    padding-top: 2%;
+}
+.btn-text {
+    font-size: 3vh;
+}
+
+/* Experience */
+.hr-bold {
+    border-color: #25b8bd;
+    border-width: 0.3em;
+  }
+  .experience{
+      padding-left: 10vw;
+  }
+
+  /* skills */
+  .progress-custom {
+    width: 40vw ;
+  }

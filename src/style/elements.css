@@ -58,7 +58,7 @@ hr {
     margin-right: 7vw;
 }
 .element-container{
-    padding-top: 7vh;
+    padding-top: 10vh;
     padding-left: 5vw;
     padding-right: 5vw;
     padding-bottom: 3vh;
@@ -84,3 +84,9 @@ hr {
   .progress-custom {
     width: 40vw ;
   }
+
+  label {
+    font-weight: bold;
+    font-size: 1.4vw;
+  }
+ 

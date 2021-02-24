@@ -15,7 +15,7 @@ const page = () => {
     <div>
       <nav
         id="navbar-example"
-        class="nav main-nav d-flex fixed-top justify-content-center bg-dark"
+        class="nav main-nav d-flex fixed-top justify-content-center bg-primary"
       >
         <ul class="nav nav-pills">
           <li class="nav-item">

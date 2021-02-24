@@ -4,7 +4,7 @@ import "../style/elements.css";
 
 const experience = () => {
   return (
-    <div class="bg-light text-dark element-container">
+    <div class="bg-secondary element-container">
       <div class="d-flex ">
         <div class="mr-5 ml-3">
           <h3 class="text-left">Work</h3>
@@ -58,6 +58,7 @@ const experience = () => {
           </div>
         </div>
       </div>
+      <hr/>
     </div>
   );
 };

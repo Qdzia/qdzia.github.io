@@ -1,41 +1,52 @@
-/* Home */
-.background-img {
-  background-image: url("../images/background.jpg");
-  height: 100vh;
-  position: relative;
+/* Colors */
+:root {
+  --primary: #112d32;
+  --primary-light: #254e58;
+  --secondary: #88bdbc;
+  --secondary-light: #4f4a41;
+  --accent: #c31c06;
 }
 
-.main-header {
-  position: absolute;
-  top: 45%;
-  transform: translateY(-55%);
-  margin-left: 15vw;
-  margin-right: 15vw;
+/* Universal */
+.element-container {
+  padding-top: 10vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 3vh;
 }
-
-.hello {
-  font-size: 500%;
+.bg-primary {
+  background: var(--primary) !important;
+  color: var(--secondary) !important;
 }
-
-.hello-sub {
-  font-size: 120%;
+.bg-secondary {
+  background: var(--secondary) !important;
+  color: var(--primary) !important;
 }
-
-/* Navbar */
-.main-nav {
-  height: 7vh;
+.text-secondary {
+  color: var(--primary-light) !important;
 }
-
-.nav-link {
-  color: white !important;
-  font-weight: bold;
-  text-align: center;
-  font-size: 3vh;
+.text-primary {
+  color: var(--secondary-light) !important;
 }
 hr {
-  border-color: #292b2c;
+  border-color: var(--primary);
+  border-width: 2px;
+}
+.hr-bold {
+  border-color: var(--accent);
+  border-width: 0.3em;
+}
+a,path{
+  color: var(--primary);
+}
+a :hover, path:hover {
+  color: var(--accent);
+}
+.a-sec,.path-sec{
+  color: var(--secondary);
 }
 
+/*Icons*/
 .ref-icon {
   width: 4vw;
   height: 4vw;
@@ -51,59 +62,115 @@ hr {
   left: 46vw;
 }
 
+/* Home */
+.background-img {
+  background-image: url("../images/background.jpg");
+  height: 100vh;
+  position: relative;
+  color: var(--primary);
+}
+.main-header {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-55%);
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+.hello {
+  font-size: 500%;
+}
+.hello-sub {
+  font-size: 120%;
+}
+
+/* Navbar */
+.main-nav {
+  height: 7vh;
+}
+.nav-link {
+  color: var(--secondary) !important;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3vh;
+}
+.nav-link:hover {
+  color: var(--accent) !important;
+}
+
 /* About */
 .portrait {
-    width: 40vw;
-    height: 60vh;
-    margin-right: 7vw;
+  width: 400px;
+  height: 600px;
 }
-.element-container{
-    padding-top: 10vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-bottom: 3vh;
+.btn-cv {
+  background: var(--primary-light);
+  color: var(--secondary);
+  font-size: 100%;
 }
-.btn-cv{
-    padding-left: 8%;
-    padding-top: 2%;
+.btn-cv:hover,.btn-cv:active{
+  color: var(--accent);
+  border-color: var(--accent);
 }
-.btn-text {
-    font-size: 3vh;
-}
+
 
 /* Experience */
-.hr-bold {
-    border-color: #25b8bd;
-    border-width: 0.3em;
-  }
-  .experience{
-      padding-left: 10vw;
-  }
+.experience {
+  padding-left: 10vw;
+}
+/* Skils */
+.progress {
+  background-color: var(--primary-light);
+}
+/* Projects */
+.col-lg-2,
+.col-md-3,
+.col-xs-6 {
+  margin-top: 12px !important;
+}
 
-  /* skills */
-  .progress-custom {
-    width: 40vw ;
-  }
+/* Contact */
+.form-box {
+  max-width: 500px;
+  width: 100%;
+}
+.form-control{
+  background: var(--primary);
+  border-color: var(--primary-light);
+  color: var(--secondary);
+}
+.form-control:focus{
+  background: var(--primary);
+  border-color: var(--accent);
+  border-width: 2px;
+  color: var(--secondary);
+}
+.form-control::placeholder{
+  color: var(--secondary-light);
+}
+.btn-submit{
+  background: var(--primary);
+  color: var(--secondary);
+}
+.btn-submit:hover{
+  color: var(--accent);
+  border-color: var(--accent);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus{
+  background: var(--secondary);
+  -webkit-text-fill-color: var(--secondary);
+  transition: background-color 5000s ease-in-out 0s;
+}
 
-  label {
-    font-weight: bold;
-    font-size: 1.4vw;
-  }
+/* Footer */
 
-  
-  .heart{color:#e25555;}
-
-  .form-box{
-    max-width:500px;
-    width:100%;
-  }
-
-   /* .tile {
-    max-width: 350px;
-  }  */
-
-
-
-   .col-lg-2, .col-md-3, .col-xs-6{
-      margin-top: 12px !important;
-   }
+.heart {
+  color: #e25555;
+}

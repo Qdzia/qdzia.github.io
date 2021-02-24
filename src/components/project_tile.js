@@ -3,19 +3,19 @@ import "../style/elements.css";
 
 const tile = () => {
   return (
-    <div class="card tile shadow">
+    <div class="card tile bg-secondary shadow">
       <div class="card-body">
-        <h4 class="card-title">Monopoly the game</h4>
-        <h6 class="card-subtitle mb-2 text-muted">
+        <h4 class="">Monopoly the game</h4>
+        <h6 class=" mb-2 ">
           Group • March 2010 - Present <br/> React • JSX • Redux • ASP .NET
         </h6>
 
-        <p class="card-text ">
+        <p class="">
           Some quick example text to build on the card title and make up the
           bulk of the card's content.orum et dolorum fuga. Et harum quidem rerum
           facilis est et expedita distinctio. Nam libero tempore, cum
         </p>
-        <a href="#about" class="card-link">
+        <a href="#about" >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
@@ -29,5 +29,4 @@ const tile = () => {
     </div>
   );
 };
-
 export default tile;

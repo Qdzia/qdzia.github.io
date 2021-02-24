@@ -10,24 +10,23 @@ const contact = () => {
       </div>
 
       <Form>
-  <Row>
-    <Col>
-    <Form.Label>Name</Form.Label>
-      <Form.Control placeholder="First name" />
-      <Form.Label>Email</Form.Label>
-      <Form.Control type="email" placeholder="Enter email" />
-      <Form.Label>Subject</Form.Label>
-      <Form.Control placeholder="Your Subject" />
-    </Col>
-    <Col>
-    <Form.Label>Massage</Form.Label>
-      <Form.Control as="textarea" rows={3} />
-
-    </Col>
-  </Row>
-  <Button variant="primary" type="submit" >
+  <div class="form-box d-inline-block">
+    <div class=" mb-1">
+    <Form.Control placeholder="Name" />
+    </div>
+    <div class=" mb-1">
+    <Form.Control type="email" placeholder="Email" />
+    </div>
+    <div class=" mb-1 mb-1">
+    <Form.Control as="textarea" placeholder="Massage" rows={3} />
+    </div>
+    
+    <Button variant="primary" type="submit" >
     Submit
-  </Button>
+    </Button>
+      
+  </div>
+  
 </Form>
     </div>
   );

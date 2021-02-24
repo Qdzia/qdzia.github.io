@@ -6,6 +6,9 @@ import Experience from "./experience";
 import Skills from "./skills";
 import Projects from "./projects";
 import Contact from "./contact";
+import Footer from "./footer";
+
+
 
 const page = () => {
   return (
@@ -54,6 +57,7 @@ const page = () => {
         <Projects />
         <div id="contact" />
         <Contact />
+        <Footer/>
       </div>
     </div>
   );

@@ -97,3 +97,13 @@ hr {
     max-width:500px;
     width:100%;
   }
+
+   /* .tile {
+    max-width: 350px;
+  }  */
+
+
+
+   .col-lg-2, .col-md-3, .col-xs-6{
+      margin-top: 12px !important;
+   }

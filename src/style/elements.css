@@ -8,8 +8,14 @@
 }
 
 /* Universal */
-.element-container {
+.element-container-pt {
   padding-top: 10vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 3vh;
+}
+.element-container {
+  padding-top: 3vh;
   padding-left: 5vw;
   padding-right: 5vw;
   padding-bottom: 3vh;
@@ -45,6 +51,10 @@ a :hover, path:hover {
 .a-sec,.path-sec{
   color: var(--secondary);
 }
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
 
 /*Icons*/
 .ref-icon {
@@ -71,16 +81,16 @@ a :hover, path:hover {
 }
 .main-header {
   position: absolute;
-  top: 45%;
-  transform: translateY(-55%);
-  margin-left: 15vw;
-  margin-right: 15vw;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 90vw;
 }
 .hello {
-  font-size: 500%;
+  font-size: 7vw;
 }
+
 .hello-sub {
-  font-size: 120%;
+  font-size: 2vw;
 }
 
 /* Navbar */
@@ -99,8 +109,8 @@ a :hover, path:hover {
 
 /* About */
 .portrait {
-  width: 400px;
-  height: 600px;
+  width: Calc(40vw * (2/3));
+  height: 40vw;
 }
 .btn-cv {
   background: var(--primary-light);
@@ -111,12 +121,13 @@ a :hover, path:hover {
   color: var(--accent);
   border-color: var(--accent);
 }
+.contact-about{
+  padding: 0px !important;
+}
 
 
 /* Experience */
-.experience {
-  padding-left: 10vw;
-}
+
 /* Skils */
 .progress {
   background-color: var(--primary-light);

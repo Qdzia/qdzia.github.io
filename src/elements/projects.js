@@ -4,7 +4,7 @@ import Tile from "../components/project_tile";
 
 const projests = () => {
   return (
-    <div class="bg-secondary element-container">
+    <div class="bg-secondary element-container-pt">
       <div class="w-auto">
         <h3 class=" mb-4">Work </h3>
       </div>

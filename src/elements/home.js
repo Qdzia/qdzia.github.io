@@ -3,7 +3,7 @@ import "../style/elements.css";
 
 const home = () => {
   return (
-    <div class="background-img">
+    <div class="background-img element-container-pt">
       <div class="main-header">
         <h1 class="hello">
           <strong>I'm Łukasz Kudzia</strong>

@@ -5,12 +5,17 @@ import "../style/elements.css";
 const skills = () => {
   return (
     <div class="bg-secondary element-container">
-      <div class="d-flex ">
-        <div class="mr-5 ml-3">
-          <h3 class="text-left">Skills</h3>
-          <hr class="hr-bold" />
-        </div>
-        <div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-xs-12">
+            <div class="">
+              <h3 class="text-left">Skills</h3>
+              <hr class="hr-bold" />
+            </div>
+          </div>
+        
+        <div class="col-lg-1 col-md-1 col-xs-0"></div>
+        <div class="col-lg-8 col-md-8 col-xs-12">
           <div class="experience text-left mb-5">
             <p class="text-secondary">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
@@ -56,8 +61,10 @@ const skills = () => {
             </div>
           </div>
         </div>
+        </div>
       </div>
-      <hr/>
+
+      <hr />
     </div>
   );
 };

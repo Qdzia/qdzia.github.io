@@ -5,34 +5,37 @@ import Button from "react-bootstrap/Button";
 
 const about = () => {
   return (
-    <div class="bg-primary d-flex element-container">
+    <div class="bg-primary d-flex element-container-pt">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-xs-12">
+          <div class="col-lg-5 col-md-5 col-xs-12">
             <img src={photo} alt="Portrait" class="portrait" />
           </div>
-          <div class="col-lg-6 col-md-6 col-xs-12">
+          <div class="col-lg-7 col-md-7 col-xs-12">
             <div>
-              <h3 class="text-left">About Me</h3>
-              <p class="text-left">
-                "At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti quos
-                dolores et quas molestias excepturi sint occaecati cupiditate
-                non provident, similique sunt in culpa qui officia deserunt
-                mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-                rerum facilis est et expedita distinctio. Nam libero tempore,
-                cum soluta nobis est eligendi optio cumque nihil impedit quo
-                minus id quod maxime placeat facere possimus, omnis voluptas
-                assumenda est, omnis dolor repellendus. Temporibus autem
-                quibusdam et aut officiis debitis aut rerum necessitatibus saepe
-                eveniet ut et voluptates repudiandae sint et molestiae non
-                recusandae. Itaque earum rerum hic tenetur a sapiente delectus,
-                ut aut reiciendis voluptatibus maiores alias consequatur aut
-                perferendis doloribus asperiores repellat." "At vero eos et
-                accusamus et iusto od
-              </p>
-              <div class="d-flex ">
-                <div>
+              <div class="row">
+                <h3 class="text-left">About Me</h3>
+                <p class="text-left">
+                  "At vero eos et accusamus et iusto odio dignissimos ducimus
+                  qui blanditiis praesentium voluptatum deleniti atque corrupti
+                  quos dolores et quas molestias excepturi sint occaecati
+                  cupiditate non provident, similique sunt in culpa qui officia
+                  deserunt mollitia animi, id est laborum et dolorum fuga. Et
+                  harum quidem rerum facilis est et expedita distinctio. Nam
+                  libero tempore, cum soluta nobis est eligendi optio cumque
+                  nihil impedit quo minus id quod maxime placeat facere
+                  possimus, omnis voluptas assumenda est, omnis dolor
+                  repellendus. Temporibus autem quibusdam et aut officiis
+                  debitis aut rerum necessitatibus saepe eveniet ut et
+                  voluptates repudiandae sint et molestiae non recusandae.
+                  Itaque earum rerum hic tenetur a sapiente delectus, ut aut
+                  reiciendis voluptatibus maiores alias consequatur aut
+                  perferendis doloribus asperiores repellat." "At vero eos et
+                  accusamus et iusto od
+                </p>
+              </div>
+              <div class="row">
+                <div class="col col-lg-4 col-md-6 col-xs-12 contact-about">
                   <h3 class="text-left">Contact</h3>
                   <p class="text-left">
                     Jonathan Doe
@@ -47,8 +50,8 @@ const about = () => {
                     <br />
                   </p>
                 </div>
-                <div class="">
-                  <button class="btn-cv btn mx-4 ">
+                <div class="col col-lg-8 col-md-6 col-xs-12 contact-about">
+                  <button class="btn-cv btn my-3">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
